@@ -1,0 +1,50 @@
+:root {
+  font-size: 10px;
+  font-family: "PingFang FC", "Mircsoft Yahei", monospace;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  background: #4C3A51;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 32%;
+  min-width: 320px;
+  margin: 2rem auto;
+  background-color: #774360;
+  padding: 2rem 3.2rem;
+  border-radius: 0.8rem;
+}
+
+p {
+  font-size: 1.8rem;
+  color: #E7AB79;
+}
+
+p:not(:last-child) {
+  margin-bottom: 2rem;
+}
